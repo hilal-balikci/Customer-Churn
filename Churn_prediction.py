@@ -31,7 +31,7 @@ from sklearn import metrics
 from sklearn.metrics import roc_curve
 from sklearn.metrics import recall_score, confusion_matrix, precision_score, f1_score, accuracy_score, classification_report
 
-df = pd.read_csv("customer_churn.csv")
+df = pd.read_csv("Customer-Churn.csv")
 df.sample(5)
 
 #Understanding Data
